@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Namma Kudla — Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Namma <span>Kudla</span></a>
+      <nav class="main-nav" id="mainNav2">
+        <a href="index.html">Home</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="guides.html">Guides</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle2" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-white">
+      <h1 class="section-title">Blog</h1>
+      <p class="muted">Latest travel stories and guides from locals and visitors alike.</p>
+
+      <div class="search-row">
+        <input id="searchInput" placeholder="Search posts by keyword..." />
+        <button id="clearSearch" class="ghost">Clear</button>
+      </div>
+
+      <div class="posts-grid" id="postsGrid">
+        <!-- Card repeat: start -->
+        <article class="post-card">
+          <img src="https://www.bing.com/th/id/OIP.FKcplV3pXG_uCx555l930QHaEK?w=298&h=211&c=8&rs=1&qlt=90&r=0&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" alt="post1">
+          <div class="post-body">
+            <h3>Hidden Lanes of Kudla</h3>
+            <p class="muted small">by Ananya • Sep 12, 2025</p>
+            <p>Wander narrow lanes where kites fly and time slows down — a photographic walk.</p>
+            <div class="post-meta">
+              <span class="tag">Culture</span>
+              <button class="link small open-comments">Comments</button>
+            </div>
+            <div class="comments" hidden>
+              <div class="comments-list"></div>
+              <form class="comment-form">
+                <input type="text" placeholder="Name" required />
+                <textarea placeholder="Write a short comment" required></textarea>
+                <button class="btn small" type="submit">Post</button>
+              </form>
+            </div>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <img src="https://th.bing.com/th/id/OIP._v36stsmKIT3wmDTS-7VrgHaEK?w=321&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="post2">
+          <div class="post-body">
+            <h3>Best Seafood Stalls</h3>
+            <p class="muted small">by Raju • Aug 20, 2025</p>
+            <p>A mouthwatering guide to where fishermen sell the day's freshest catch.</p>
+            <div class="post-meta">
+              <span class="tag">Food</span>
+              <button class="link small open-comments">Comments</button>
+            </div>
+            <div class="comments" hidden>
+              <div class="comments-list"></div>
+              <form class="comment-form">
+                <input type="text" placeholder="Name" required />
+                <textarea placeholder="Write a short comment" required></textarea>
+                <button class="btn small" type="submit">Post</button>
+              </form>
+            </div>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <img src="https://th.bing.com/th/id/OIP.TDow6dGvWbFpRtZgTNoylAHaFj?w=235&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="post3">
+          <div class="post-body">
+            <h3>Festival Nights</h3>
+            <p class="muted small">by Leela • Jul 05, 2025</p>
+            <p>A guide to experiencing the colour and music of Kudla's festival season.</p>
+            <div class="post-meta">
+              <span class="tag">Festival</span>
+              <button class="link small open-comments">Comments</button>
+            </div>
+            <div class="comments" hidden>
+              <div class="comments-list"></div>
+              <form class="comment-form">
+                <input type="text" placeholder="Name" required />
+                <textarea placeholder="Write a short comment" required></textarea>
+                <button class="btn small" type="submit">Post</button>
+              </form>
+            </div>
+          </div>
+        </article>
+        <!-- Card repeat: end -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer small">
+    <div class="container footer-inner">
+      <a class="brand" href="index.html">Namma <span>Kudla</span></a>
+      
+    </div>
+    <div class="container copyright">
+      © <span id="year2"></span> Namma Kudla — All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

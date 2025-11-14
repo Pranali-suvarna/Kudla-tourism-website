@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Namma Kudla — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Namma <span>Kudla</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="guides.html">Guides</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+    <div class="hero">
+      <div class="container hero-inner">
+        <h1>Discover Kudla — culture, cuisine & coastal charm</h1>
+        <p>Local stories, hidden gems, and travel tips from people who love this city.</p>
+        <div class="hero-ctas">
+          <a href="destinations.html" class="btn">Explore Destinations</a>
+          <a href="blog.html" class="btn ghost">Read Stories</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container features">
+      <div class="card feature">
+        <img src="https://www.bing.com/th/id/OIP.x-Hk4D9EKKjI7_FOzxoTdAHaEb?w=230&h=211&c=8&rs=1&qlt=90&r=0&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" alt="Beach"/>
+        <h3>Beaches & Nature</h3>
+        <p>Golden sands, peaceful sunsets and seaside walks — best places to unwind.</p>
+        <a href="destinations.html" class="link">See spots →</a>
+      </div>
+      <div class="card feature">
+        <img src="https://www.bing.com/th/id/OIP.7eXe-hz77TbtIg6uyHr5xAHaEo?w=278&h=211&c=8&rs=1&qlt=90&r=0&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" alt="Food"/>
+        <h3>Local Cuisine</h3>
+        <p>From seafood to sweet treats — local flavours you must try in Kudla.</p>
+        <a href="blog.html" class="link">Food guides →</a>
+      </div>
+      <div class="card feature">
+        <img src="https://www.bing.com/th/id/OIP.NPbn9BbsllyfhgXROv-OdwHaEK?w=274&h=211&c=8&rs=1&qlt=90&r=0&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" alt="Culture"/>
+        <h3>Culture & Festivals</h3>
+        <p>Discover traditions, festivals and cultural experiences that define the city.</p>
+        <a href="guides.html" class="link">Meet guides →</a>
+      </div>
+    </section>
+
+    <section class="container section-white">
+      <h2 class="section-title">Featured Blog Posts</h2>
+      <div class="slider" id="featuredSlider" aria-live="polite">
+        <div class="slide active">
+          <img src="https://www.bing.com/th/id/OIP.8Da3lUtlI-B9uqBjX7rSLwHaEX?w=244&h=211&c=8&rs=1&qlt=90&r=0&o=6&cb=ucfimg1&pid=3.1&rm=2&ucfimg=1" class="ferry"alt="ferry"/>
+          <div class="slide-caption">
+            <h3>Sunrise Ferry Ride — A Coastal Story</h3>
+            <p>Experience the city waking up from a unique vantage point.</p>
+            <a href="blog.html" class="btn small">Read</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="https://images.unsplash.com/photo-1549899594-3d6f54e2b4c2?auto=format&fit=crop&w=1200&q=60" alt="street food"/>
+          <div class="slide-caption">
+            <h3>Street Food Crawl — Must-Try Bites</h3>
+            <p>A local guide to the tastiest stalls & timings.</p>
+            <a href="blog.html" class="btn small">Read</a>
+          </div>
+        </div>
+        <button class="slide-btn prev" data-dir="-1" aria-label="Previous slide">‹</button>
+        <button class="slide-btn next" data-dir="1" aria-label="Next slide">›</button>
+      </div>
+    </section>
+
+    <section class="container section-white">
+      <h2 class="section-title">Subscribe to our newsletter</h2>
+      <p>Get monthly highlights, local tips and upcoming events from Namma Kudla.</p>
+      <form id="newsletterForm" class="newsletter">
+        <input type="email" id="emailInput" placeholder="Your email address" required/>
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+      <p id="newsletterMsg" class="muted"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand" href="index.html">Namma <span>Kudla</span></a>
+        <p class="muted">A travel blog celebrating coastal culture & community.</p>
+      </div>
+      
+    </div>
+    <div class="container copyright">
+      © <span id="year"></span> Namma Kudla — All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

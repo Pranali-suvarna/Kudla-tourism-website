@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Namma Kudla — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Namma <span>Kudla</span></a>
+      <nav class="main-nav" id="mainNav5">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="guides.html">Guides</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle5" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-white">
+      <h1 class="section-title">Get in touch</h1>
+      <p class="muted">Questions? Want a guide? Or want to share a travel story? Drop a message below.</p>
+
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form">
+          <label>
+            Your name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Your email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <div class="form-row">
+            <button class="btn" type="submit">Send Message</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+          <p id="contactMsg" class="muted"></p>
+        </form>
+
+        <aside class="sidebox">
+          <h3>Contact info</h3>
+          <p class="muted small">Local office • Open Mon–Sat</p>
+          <p>Phone: ‪+91 99999 99999‬<br>Email: hello@nammakudla.example</p>
+
+          <hr/>
+
+          <h3>Share your travel story</h3>
+          <p class="muted small">Write a short story and we may feature it on the blog.</p>
+          <form id="storyForm">
+            <input type="text" name="author" placeholder="Your name" required/>
+            <textarea name="story" placeholder="A short travel story (max 300 chars)" maxlength="300" required></textarea>
+            <button class="btn" type="submit">Submit story</button>
+          </form>
+          <p id="storyMsg" class="muted"></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer small">
+    <div class="container footer-inner">
+      <a class="brand" href="index.html">Namma <span>Kudla</span></a>
+      
+    </div>
+    <div class="container copyright">
+      © <span id="year5"></span> Namma Kudla — All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
