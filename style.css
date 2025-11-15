@@ -372,10 +372,6 @@ body {
   color: #111;
 }
 
-.footer-nav {
-  display: flex;
-  gap: 12px;
-}
 
 .copyright {
   text-align: center;
